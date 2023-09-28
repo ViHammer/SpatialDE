@@ -134,7 +134,7 @@ def make_elbojective(Y, r, m, X, K_0, s2e_0, pi=None):
 
 # Model fitting
 
-def fit_patterns(X, Y, C, l, s2e_0=1.0, verbosity=0, maxiter=100, printerval=1, opt_interval=1, delta_elbo_threshold=1e-2):
+def fit_patterns(X, Y, C, l, s2e_0=1.0, verbosity=0, maxiter=2, printerval=1, opt_interval=1, delta_elbo_threshold=1e-2):
     ''' Fit spatial patterns using Automatic Expression Histology.
 
     X : Spatial coordinates
